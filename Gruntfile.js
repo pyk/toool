@@ -5,14 +5,25 @@ module.exports = function (grunt) {
   /** 
    * load plugin
    */
-  // tulis kode untuk load plugin disini
+  grunt.loadNpmTasks('grunt-contrib-connect');
 
   /** 
    * konfigurasi task
    */
-   grunt.initConfig({
-      // tulis kode untuk konfigurasi task disini
-   });
+  grunt.initConfig({
+    
+    connect: {
+      server: {
+        options: {
+          base: ".",
+          port: 8000,
+          host: 'localhost',
+          livereload: true
+        }
+      }
+    },
+
+  });
 
   /** 
    * register custom task
