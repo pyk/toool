@@ -7,7 +7,8 @@ module.exports = function (grunt) {
    */
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-recess');
-  
+  grunt.loadNpmTasks('grunt-contrib-watch');
+
   /** 
    * konfigurasi task
    */
@@ -34,7 +35,16 @@ module.exports = function (grunt) {
         }
       }
     },
-
+    watch: {
+      options: {livereload: true},
+      html: {
+        files: ['*.html'],
+      },
+      less: {
+        files: ['less/*.less'],
+        tasks: ['recess']
+      }
+    }
   });
 
   /** 
