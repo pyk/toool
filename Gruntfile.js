@@ -6,7 +6,8 @@ module.exports = function (grunt) {
    * load plugin
    */
   grunt.loadNpmTasks('grunt-contrib-connect');
-
+  grunt.loadNpmTasks('grunt-recess');
+  
   /** 
    * konfigurasi task
    */
@@ -19,6 +20,17 @@ module.exports = function (grunt) {
           port: 8000,
           host: 'localhost',
           livereload: true
+        }
+      }
+    },
+    recess: {
+      dist: {
+        options: {
+          compile: true,
+          compress: false,
+        },
+        files: {
+          'assets/styles/main.css':['less/main.less'],
         }
       }
     },
