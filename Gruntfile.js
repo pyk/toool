@@ -50,5 +50,5 @@ module.exports = function (grunt) {
   /** 
    * register custom task
    */
-  // tulis kode untuk register custom task disini
+  grunt.registerTask('server', ['connect', 'watch']);
 }
