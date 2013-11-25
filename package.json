@@ -1,0 +1,22 @@
+{
+  "name": "toool",
+  "version": "0.0.0",
+  "description": "Ideal Toolkit for static site development.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peeyek/toool.git"
+  },
+  "keywords": [
+    "toolkit",
+    "gruntjs",
+    "static",
+    "site",
+    "development",
+    "tool"
+  ],
+  "author": "Bayu Aldi Yansyah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/peeyek/toool/issues"
+  }
+}
