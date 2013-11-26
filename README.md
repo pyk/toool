@@ -39,5 +39,5 @@ make sure all this things are installed
 
 ### how to use it
 1. Download as zip and extract
-2. on toool folder run `grunt server` command
+2. on toool folder run `npm install` then `grunt server` command
 3. have fun :)
