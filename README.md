@@ -13,7 +13,7 @@ see the video
 ### how to built this?
 sorry, this tutorial only avaliable for indonesian language
 
-[http://blog.idjs.org/merangkai-toolkit-development-static-site-dengan-gruntjs/](blog.idjs.org/merangkai-toolkit-development-static-site-dengan-gruntjs/)
+[http://blog.idjs.org/merangkai-toolkit-development-static-site-dengan-gruntjs/](http://blog.idjs.org/merangkai-toolkit-development-static-site-dengan-gruntjs/)
 
 ### feature
 1. Built-in Server
